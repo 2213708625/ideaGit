@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: seckill-web
+rocketmq:
+  name-server: 192.168.213.128:9876
+  producer:
+    group: seckill-group
